@@ -6,7 +6,7 @@
 	"folders": [
 		{
 			"path": "."
-		},
+		}
 	],
 	// extensions.json section
 	"extensions": {
@@ -76,7 +76,7 @@
 				"name": "Debug LVGL demo with gdb",
 				"type": "cppdbg",
 				"request": "launch",
-		        "program": "${workspaceFolder}/bin/main",
+		        "program": "${workspaceFolder}/main/src/main.c",
 				"args": [],
 				"cwd": "${workspaceFolder}",
 				"preLaunchTask": "Build",
